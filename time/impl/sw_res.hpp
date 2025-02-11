@@ -14,10 +14,10 @@ static constexpr unsigned nsec = 1U;             //< nanoseconds
 namespace _impl {
 using suffix_entry = std::pair< decltype( sec ), const char * >;
 const static std::vector<suffix_entry> suffix_table {
-    { sec,  "s"   },
-    { msec, "ms"  },
-    { usec, "μs" },
-    { nsec, "ns"  }
+  { sec,  "s"   },
+  { msec, "ms"  },
+  { usec, "μs" },
+  { nsec, "ns"  }
 };
 
 }
@@ -28,12 +28,12 @@ const static std::vector<suffix_entry> suffix_table {
 //  @param res
 //
 static inline const char * const units( decltype( sec ) res ) {
-    // Yes, linear search is hell-and-gone faster for small N.
-    for ( const auto s : _impl::suffix_table )
-        if ( s.first == res ) return s.second;
-    return "";
+  // Yes, linear search is hell-and-gone faster for small N.
+  for ( const auto s : _impl::suffix_table )
+    if ( s.first == res ) return s.second;
+  return "";
 }
 
-}
-}
-}
+} // namespace res
+} // namespace stopwatch
+} // namespace wax
