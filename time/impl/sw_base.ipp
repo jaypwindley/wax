@@ -1,7 +1,7 @@
 #pragma once
 
 #include <time.h>
-#include "sw_res.hpp"
+#include "./sw_res.hpp"
 
 namespace wax {
 namespace __impl {

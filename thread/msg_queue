@@ -1,0 +1,11 @@
+// <msg_queue> -*- C++ -*-
+/**
+ * @file include/wax/thread/msg_queue
+ */
+
+#ifndef __WAXLIB_THREAD_MSG_QUEUE
+#define __WAXLIB_THREAD_MSG_QUEUE 1
+
+#include <wax/thread/impl/msg_queue.ipp>
+
+#endif /* __WAXLIB_THREAD_MSG_QUEUE */

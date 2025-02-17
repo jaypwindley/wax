@@ -1,0 +1,11 @@
+// <thread_loop> -*- C++ -*-
+/**
+ * @file include/wax/thread/thread_loop
+ */
+
+#ifndef __WAXLIB_THREAD_THREAD_LOOP__
+#define __WAXLIB_THREAD_THREAD_LOOP__ 1
+
+#include <wax/thread/impl/thread_loop.hpp>
+
+#endif /* __WAXLIB_THREAD_THREAD_LOOP__ */

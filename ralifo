@@ -1,0 +1,11 @@
+// <ralifo> -*- C++ -*-
+/**
+ * @file include/wax/ralifo
+ */
+
+#ifndef __WAXLIB_RALIFO__
+#define __WAXLIB_RALIFO__ 1
+
+#include <wax/impl/ralifo.ipp>
+
+#endif /* __WAXLIB_RALIFO__ */

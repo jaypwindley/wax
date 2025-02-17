@@ -1,9 +1,9 @@
 #pragma once
 
-#include <stdio.h>
+#include <cstdio>
 #include <utility>
 #include <vector>
-#include "impl/sw_base.ipp"
+#include "./sw_base.ipp"
 
 namespace wax {
 

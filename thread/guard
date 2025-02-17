@@ -1,0 +1,12 @@
+// <guard> -*- C++ -*-
+/**
+ * @file include/wax/thread/guard
+ */
+
+#ifndef __WAXLIB_THREAD_GUARD__
+#define __WAXLIB_THREAD_GUARD__ 1
+
+#include <wax/thread/impl/guard.hpp>
+
+#endif
+/*__WAXLIB_THREAD_GUARD__ */

@@ -1,0 +1,11 @@
+// <mutex> -*- C++ -*-
+/**
+ * @file include/wax/thread/mutex
+ */
+
+#ifndef __WAXLIB_THREAD_MUTEX __
+#define __WAXLIB_THREAD_MUTEX__ 1
+
+#include <wax/thread/impl/mutex.hpp>
+
+#endif /* __WAXLIB_THREAD_MUTEX__ */

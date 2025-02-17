@@ -1,0 +1,11 @@
+// <stopwatch> -*- C++ -*-
+/**
+ * @file include/wax/time/stopwatch
+ */
+
+#ifndef __WAXLIB_TIME_STOPWATCH__
+#define __WAXLIB_TIME_STOPWATCH__ 1
+
+#include <wax/time/impl/stopwatch.hpp>
+
+#endif /* __WAXLIB_TIME_STOPWATCH__ */

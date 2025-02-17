@@ -1,0 +1,23 @@
+// <ring_buffer> -*- C++ -*-
+/**
+ * @file include/wax/ring_buffer
+ */
+
+#ifndef __WAXLIB_RING_BUFFER__
+#define __WAXLIB_RING_BUFFER__ 1
+
+#include <cassert>
+#include <cstddef>
+#include <cstring>
+#include <functional>
+#include <memory>
+#include <mutex>
+#include <stdexcept>
+
+#include <wax/bits/types.hpp>
+#include <wax/thread/impl/mutex.hpp>
+
+#include <wax/impl/ring_buffer.ipp>
+#include <wax/impl/ring_buffer_anon.hpp>
+
+#endif /* __WAXLIB_RING_BUFFER__ */
